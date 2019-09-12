@@ -11,9 +11,9 @@ html{
 }
 #profilbild{
 	width:30%;
-	float:right;
-	padding:1%;
-	
+	float: right;
+	margin-right: 5px;
+
 }
 
 body{
@@ -36,6 +36,7 @@ article{
 	padding-top:5px;
 	height:100%;
 	
+	overflow: hidden;
 }
 a{
      text-decoration: none;
@@ -45,6 +46,17 @@ a:hover{
 	color: blue;
 }
 
+#Willkommenstext{
+
+padding: 1%;
+background-color: white;
+width: 600px;
+margin-left: 12.5px;
+box-sizing: border-box;
+
+
+
+}
 
 /* Desktop*/
 @media only screen and (min-width: 750px) {
