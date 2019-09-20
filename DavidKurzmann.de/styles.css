@@ -16,7 +16,10 @@ body,html{
 	width: 720px;
 	margin: auto;
 }
-
+.indexButton{
+text-align: center  
+vertical-align: middle
+}
 
 article{
 
