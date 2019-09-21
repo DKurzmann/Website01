@@ -1,0 +1,85 @@
+
+body,html{
+	margin: 0;
+	height: 100%;
+	background-image: url("Titelbild.jpg");
+	overflow: hidden;
+	background-position: center;
+	background-size:cover;
+
+}
+.bg{
+	position: relative;
+    overflow: auto;
+}
+
+img {
+	position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+
+}
+.githubkalenderdiv{
+	width: 720px;
+	margin: auto;
+}
+.indexWrapper1{
+text-align: center;
+position: absolute;
+left: 0;
+width: 100%;
+top: 30%;
+}
+.indexWrapper2{
+
+}
+.indexButton{
+
+text-decoration: none;
+color: white;
+border: 1px solid white;
+padding: 5px;
+font-size:20px;
+}
+.indexButton:hover{
+background-color:white;
+ color: black;
+}
+.indexName{
+color: white;
+padding: 5px;
+font-size:100px;
+}
+.indexUntertitel{
+color: white;
+padding: 5px;
+font-size:30px;
+}
+.indexKopfzeile{
+text-align: center;
+position: absolute;
+left: 0;
+width: 100%;
+top: 4%;
+color: white;
+padding: 5px;
+font-size:20px;
+}
+a{
+     
+	 color: black;
+	 }
+
+
+#Willkommenstext{
+
+padding: 1%;
+background-color: white;
+width: 600px;
+margin-left: 12.5px;
+box-sizing: border-box;
+}
+
