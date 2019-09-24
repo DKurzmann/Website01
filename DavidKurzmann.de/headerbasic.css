@@ -3,6 +3,12 @@ body,html{
 	height: 100%;
 
 }
+main{
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:20px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -108,7 +114,7 @@ text-align:center;
 width: 100%;
 position: absolute;
 top:55%;
-font-size: 24px;
+font-size: 20px;
 color:white;
 }
 .footer{
