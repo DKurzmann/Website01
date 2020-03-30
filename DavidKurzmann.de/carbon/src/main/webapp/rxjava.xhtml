@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui" xmlns:pt="http://xmlns.jcp.org/jsf/passthrough" xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet"
+	href="./rxjava.css"/>
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<meta name="description" content="This is an awesome Website"/>
+	<meta name="viewport" content="with=dewice-width, initial-scale=1.0"/>
+	<title>David's Website</title>
+	<script src='./app.js'></script>
+</h:head>
+
+<body>
+	<header>	
+		<ul><ul>
+	
+			<li><a class="AbstandhalterRegisterNavigation" href="#about"></a> </li>
+			<!-- <li><a href="#about">Impressum</a></li>
+				
+			<li><a href="#contact">Schach</a></li>		
+			<li><a href="#news">Sensor Daten</a></li>-->
+			<li><a class="uebermichRegister" href="übermich.xhtml">Über mich!</a></li>
+			<li><a class="rxJavaRegister" href="rxjava.xhtml">RxJava</a></li>
+			<li><a class="finanzenRegister" href="finanzen.xhtml">Finanzen</a></li> 
+			<li class="dropdown"><div class="test2"><div class="test"><a class="dropbtn">Willkommen</a></div></div>
+				<div class="dropdown-content">
+					<a href="Index.xhtml" class="titelseiteRegister">Titelseite</a>
+					<a href="MainPage.xhtml" class="hauptseiteRegister">Hauptseite</a>
+				</div>
+				</li>
+			<li style="float:left"><a class="AbstandhalterRegisterNavigation" href="#about"></a> </li>
+			<li style="float:left"><a class="nameImRegister" href="#about">David Kurzmann</a> </li>
+		</ul></ul>
+		<div class="fotoHeader">					
+		<a class="fotoÜberschrift">Servus,<br/></a>
+		<a class="fotoUnterschrift">mein Name ist David Kurzmann. Ich benutze und erstelle gerne alle Arten von Software, Spiele und Apps bis hin zu <br/> Excel-Tabellen! Schau dich um und lass mich wissen, was du denkst!</a>
+		</div>	
+		<br/><br/><br/>	
+	</header>
+	<main>
+	<h2>Region2</h2>
+		<h:form>
+		<p:toolbar>
+		  <p:toolbarGroup>
+		  
+		    <p:commandButton action="#{bean.testButtonAction}"/>
+		    <p:commandButton actionListener="#{bean.testButtonActionListener}"/>
+		    <h:commandButton value = "Click Me!" onclick = "alert('Hello World!');" /> 
+		  </p:toolbarGroup>
+		</p:toolbar>
+		</h:form>
+	</main>
+	<footer class="footer">
+	
+		<br/>
+	</footer>
+</body>
+</html>

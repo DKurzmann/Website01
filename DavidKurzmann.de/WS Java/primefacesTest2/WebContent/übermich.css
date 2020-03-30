@@ -1,0 +1,10 @@
+@import "headerbasic.css";
+.uebermichRegister{
+	color:black;
+}
+.dropbtn{
+	color:gray;
+}
+.dropbtn:hover{
+	color:black;
+}

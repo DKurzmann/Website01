@@ -1,0 +1,130 @@
+body,html{
+	margin: 0;
+	height: 100%;
+
+}
+main{
+	width:800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 26.5px 16px;
+  padding-top: 28px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.uebermichRegister:hover {
+	color: black;
+}
+.finanzenRegister:hover {
+	color: black;
+}
+.rxJavaRegister:hover {
+	color: black;
+}
+.titelseiteRegister:hover {
+	color: black;
+}
+.hauptseiteRegister:hover {
+	color: black;
+}
+.dropbtn {
+  color: black;
+}
+.test{
+	position:relative;
+}
+.dropbtn::after{
+	position: absolute;
+	content: '';
+	left: 50%;
+	margin-left:-16px;
+	bottom:0%;
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 20px solid white;
+}
+.dropdown-content a {
+  color: gray;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-top:1px solid #F0F0F0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+margin-left:-37.935px;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn::after{
+	border-bottom-color:#F0F0F0;
+}
+.AbstandhalterRegisterNavigation{
+	  padding: 20.5px 30px;
+}
+.nameImRegister{
+	font-size: 20px;
+	padding: 24px 30px;
+	color:black;
+}
+.fotoHeader{
+background-image: url("TitelbildDunkel.jpg");
+background-color:black;
+background-attachment:fixed;
+height: 400px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.fotoÜberschrift{
+text-align:center;
+width: 100%;
+position: absolute;
+top:30%;
+font-size: 80px;
+color:white;
+
+}
+.fotoUnterschrift{
+text-align:center;
+width: 100%;
+position: absolute;
+top:55%;
+font-size: 20px;
+color:white;
+}
+.footer{
+	background-color:rgb(54, 54, 54);
+	height: 200px;
+	width: 100%;
+}

@@ -1,0 +1,10 @@
+@import "headerbasic.css";
+.finanzenRegister{
+	color:black;
+}
+.dropbtn{
+	color:gray;
+}
+.dropbtn:hover{
+	color:black;
+}
